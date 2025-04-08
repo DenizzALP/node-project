@@ -3,7 +3,8 @@ const mongoose = require("mongoose");
 const schema = mongoose.Schema({
     email:  {
         type: String,
-        required: true
+        required: true,
+        unique: true
     },
     password:  {
         type: String,
@@ -19,6 +20,7 @@ const schema = mongoose.Schema({
 
 
 },{
+    versionKey:false,
     timestamps: {
         createdAt: "created_at",
         updatedAt: "updaated_at"
