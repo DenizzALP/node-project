@@ -4,7 +4,8 @@ module.exports = {
         "ALREADY_EXXIST":"Zaten var!",
         "UNKNOWN_ERROR": "Bilinmeyen Hata!",
         "FIELD_MUST_BE_FILLED": "{} alanı dolu olmalıdır ",
-        "FIELD_MUST_BE_TYPE": "{} alanı {} tipinde olmalıdır"
+        "FIELD_MUST_BE_TYPE": "{} alanı {} tipinde olmalıdır",
+        "NEED_PERMISSIONS": "Yetki Gerekli"
     },
     "USERS":{
         "AUTH_ERROR": "Email ya da  şifre hatalı",
