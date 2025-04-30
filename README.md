@@ -102,8 +102,8 @@ Request logs and error logs are handled using morgan (or winston)
 
 Logs are stored in logs/ folder (optional setup)
 
-## 📃 License
-[MIT](LICENSE)
+> ⚠️ **Disclaimer:** This project is based on educational material originally provided by [https://www.youtube.com/@endrcn].  
+> It was developed solely for learning purposes and to demonstrate my understanding of backend development with Node.js, Express, and MongoDB.
 
 
 
